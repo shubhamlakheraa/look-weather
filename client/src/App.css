@@ -1,0 +1,97 @@
+
+.container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  width: 300px; /* Set div's width to 300px */
+  height: auto;
+  background-color: white;
+  padding-bottom: 2rem;
+
+}
+
+.input {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin between input and button */
+}
+
+.button {
+  width: 100%;
+  max-width: 250px;
+  background-color: #87CEEB;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px; /* Add margin between input and button */
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 10px 0; /* Add margin between input and button */
+}
+
+
+
+
+.title{
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+  color: skyblue;
+  line-height: 0%;
+}
+
+.inner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ .temp{
+  margin-bottom: 0;
+}
+
+.main-weather{
+  margin-bottom: 0;
+}
+
+
+.bottom-details{
+  display: flex;
+  justify-content: space-around;
+}
+
+.divider {
+  border-left: 0.5px solid grey;
+  height: 99px;
+  position: absolute;
+  left: 50%;
+  
+  margin-left: -3px;
+  top: 64.5%;
+}
+
+.humidity{
+  display: flex;
+  align-items: center;
+}
+
+.feels-like{
+  display: flex;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
