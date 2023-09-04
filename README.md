@@ -1,6 +1,6 @@
 # Weather App
 
-![Weather App](https://example.com/weather-app-screenshot.png)
+
 
 Welcome to the Weather App, a web application that provides real-time weather information for locations around the world. Stay informed about current weather conditions, forecasts, and more.
 
