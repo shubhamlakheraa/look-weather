@@ -12,9 +12,13 @@ export default function Weather({ weatherData }) {
         <p className="main-weather">
           {weatherData ? weatherData.weather[0].main : ""}
         </p>
+        <div className="city-country">
+            <img src="/placeholder.png" />
         <p>
           {weatherData ? `${weatherData.name}, ${weatherData.sys.country}` : ""}{" "}
         </p>
+        </div>
+        
       </div>
 
       <hr
@@ -22,19 +26,30 @@ export default function Weather({ weatherData }) {
           background: "#D3D3D3",
           color: "#D3D3D3",
           borderColor: "#D3D3D3",
-          height: "0.5px",
+          opacity: "50%",
         }}
       />
       <div className="bottom-details">
+        <div className="small-contain">
         <div className="feels-like">
           <img src="/freezing.png" />
-          <p>{weatherData ? weatherData.main.feels_like : ""}</p>
+          <p style={{
+            marginBottom: "0",
+          }}>{weatherData ? weatherData.main.feels_like : ""}</p>
         </div>
+        <p className="des-freeze">Feels Like</p>
+        </div>
+        
 
         <div className="divider"></div>
+        <div>
         <div className="humidity">
           <img src="/humidity.png" />
-          <p>{weatherData ? `${weatherData.main.humidity}%` : ""}</p>
+          <p style={{
+            marginBottom: "0",
+          }}>{weatherData ? `${weatherData.main.humidity}%` : ""}</p>
+        </div>
+        <p className="des-freeze">Humidity</p>
         </div>
       </div>
     </>

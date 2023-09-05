@@ -10,16 +10,31 @@ function Modal() {
 
   const [weatherData, setWeatherData] = useState("");
 
+  const handleArrowClick = () => {
+    setWeatherData("")
+  }
+
   return (
     <>
       <div className="container">
+        <div className="title-container">
+            {weatherData ? <button onClick={handleArrowClick} style={{
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+            }}><img src="/arrow.png" /></button> : 
+            ""}
+            
         <h3 className="title">Weather App</h3>
+        </div>
+        
         <hr
           style={{
             background: "#D3D3D3",
             color: "#D3D3D3",
             borderColor: "#D3D3D3",
-            height: "0.5px",
+            
+            opacity: "50%"
           }}
         />
 

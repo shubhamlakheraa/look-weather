@@ -22,7 +22,7 @@
 .button {
   width: 100%;
   max-width: 250px;
-  background-color: #87CEEB;
+  background-color: #0096FF;
   color: white;
   border: none;
   padding: 10px;
@@ -37,13 +37,21 @@
   margin: 10px 0; /* Add margin between input and button */
 }
 
+.city-country{
+  display: flex;
+  align-items: center;
+}
 
+.title-container{
+  display: flex;
+  align-items: flex-end;
+}
 
 
 .title{
   padding-top: 1.5rem;
   padding-left: 0.5rem;
-  color: skyblue;
+  color: #0096FF;
   line-height: 0%;
 }
 
@@ -70,22 +78,22 @@
 
 .divider {
   border-left: 0.5px solid grey;
-  height: 99px;
+  height: 105px;
   position: absolute;
   left: 50%;
-  
+  opacity: 50%;
   margin-left: -3px;
-  top: 64.5%;
+  top: 62.5%;
 }
 
 .humidity{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .feels-like{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .form{
@@ -93,5 +101,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.des-freeze{
+    margin-top: 0px;
+    font-size: 10px;
+    text-align: right;
 }
 

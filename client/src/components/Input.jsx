@@ -96,7 +96,7 @@ function Input({
 
         <button
           onClick={handleGetLocation}
-          style={{ backgroundColor: "#87CEEB", color: "white" }}
+          style={{ backgroundColor: "#0096FF", color: "white" }}
           className="button"
         >
           Get Device Location
